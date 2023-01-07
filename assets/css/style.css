@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 350px;
+  height: 500px;
+  border: 3px solid rgb(0, 230, 200);
+  border-radius: 4%;
+  margin: 100px auto;
+}
+
+header > div {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.image-wrapper {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border: 10px solid whitesmoke;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px grey;
+  overflow: hidden;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+}
+
+.info-container,
+.person-info,
+.person-name {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.person-info {
+  font-size: 0.8em;
+  width: 80%;
+}
+
+.menu-container {
+  text-align: center;
+}
+
+button {
+  height: 50px;
+  width: 130px;
+  font-size: x-large;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 2px rgb(0, 101, 129);
+  background-color: rgb(36, 181, 221);
+  color: whitesmoke;
+}
+
+footer {
+  height: 52px;
+}
+
+.flex-container {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  height: 100%;
+  border-radius: 0px 0px 14px 14px;
+  overflow: hidden;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: rgb(47, 66, 100);
+  margin: 0px 0.01em;
+  text-align: center;
+  height: 100%;
+}
+
+.flex-item > div {
+  display: inline-block;
+  color: #b6546c;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.flex-item > div:last-child > p:last-child {
+  color: antiquewhite;
+}
+
+p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.icons {
+  width: 20px;
+}
